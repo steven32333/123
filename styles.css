@@ -1,0 +1,37 @@
+.game-board {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+.game-status {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.winner {
+    color: #28a745;
+}
+
+.draw {
+    color: #ffc107;
+}
